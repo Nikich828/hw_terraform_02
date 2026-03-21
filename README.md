@@ -183,3 +183,59 @@ test = [
 * задание выполнено частично или не выполнено вообще,
 * в логике выполнения заданий есть противоречия и существенные недостатки. 
 
+### Ответ
+### Задание 1
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/1.JPG)
+
+Первая ошибка сообщает, что не может найти  данную платформу standart-v4, такой не сущесвтует, ставим standard-v1.
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/2.JPG)
+
+Вторая говорит о том, что нельзя поставить одно ядро, ставим два.
+
+В итоге было:
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/3.JPG)
+
+Стало:
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/4.JPG)
+
+
+Машина поднялась:
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/5.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/6.JPG)
+
+preemptible = true  - делает машину прерываемой, экономит ресурсы, машина через некторое время отключится.
+core_fraction = 5 - дает гарантию производительности vCPU 5%. Также экномия для задач, где не нужна высокая производительность.
+
+### Задание 2
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/7.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/8.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/9.JPG)
+
+### Задание 3
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/12.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/10.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/11.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/25.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/26.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/29.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/27.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/28.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/28.JPG)

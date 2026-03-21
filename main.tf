@@ -7,14 +7,20 @@ resource "yandex_vpc_subnet" "develop" {
   network_id     = yandex_vpc_network.develop.id
   v4_cidr_blocks = var.default_cidr
 }
-
+resource "yandex_vpc_subnet" "develop_db" {
+  name           = var.vpc_name_db
+  zone           = var.vm_db_zone
+  network_id     = yandex_vpc_network.develop.id
+  v4_cidr_blocks = var.db_cidr
+}
 
 data "yandex_compute_image" "ubuntu" {
-  family =  var.vm_web_family
+  family = var.vm_web_family
 }
 resource "yandex_compute_instance" "platform_1" {
   name        = local.vm_web_name
   platform_id = var.vm_web_platform_id
+  zone        = var.vm_web_zone
   resources {
     cores         = var.vms_resources.vm_web_resources.cores
     memory        = var.vms_resources.vm_web_resources.memory
@@ -37,10 +43,12 @@ resource "yandex_compute_instance" "platform_1" {
     serial-port-enable = var.metadata.first_pub_key.serial-port-enable
     ssh-keys           = "ubuntu:${var.metadata.first_pub_key.ssh-keys}"
   }
+
 }
 resource "yandex_compute_instance" "platform_2" {
   name        = local.vm_db_name
   platform_id = var.vm_db_platform_id
+  zone        = var.vm_db_zone
   resources {
     cores         = var.vms_resources.vm_db_resources.cores
     memory        = var.vms_resources.vm_db_resources.memory
@@ -55,7 +63,7 @@ resource "yandex_compute_instance" "platform_2" {
     preemptible = true
   }
   network_interface {
-    subnet_id = yandex_vpc_subnet.develop.id
+    subnet_id = yandex_vpc_subnet.develop_db.id
     nat       = true
   }
 
