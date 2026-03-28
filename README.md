@@ -224,8 +224,6 @@ core_fraction = 5 - дает гарантию производительност
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/12.JPG)
 
-![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/10.JPG)
-
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/11.JPG)
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/25.JPG)
@@ -234,8 +232,41 @@ core_fraction = 5 - дает гарантию производительност
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/29.JPG)
 
+Добавил зону:
+
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/27.JPG)
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/28.JPG)
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/28.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/13.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/14.JPG)
+
+### Задание 4
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/15.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/16.JPG)
+
+### Задание 5
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/17.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/18.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/19.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/20.JPG)
+
+
+### Задание 6
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/21.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/22.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/23.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/24.JPG)
