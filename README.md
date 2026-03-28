@@ -270,3 +270,5 @@ core_fraction = 5 - дает гарантию производительност
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/23.JPG)
 
 ![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/24.JPG)
+
+![1](https://github.com/Nikich828/hw_terraform_02/blob/main/тераформ%202/30.JPG)
